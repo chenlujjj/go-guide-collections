@@ -12,3 +12,4 @@ This is a collection of various go language guides, including those from the go 
 - [bahlo's Go Styleguide](https://github.com/bahlo/go-styleguide)
 
 - [The Go Memory Model](https://go.dev/ref/mem)：可以着重看 **Incorrect synchronization** 这一小节中的错误示例，尽量避免在日常编程时犯错。
+- [A Guide to the Go Garbage Collector](https://go.dev/doc/gc-guide)
