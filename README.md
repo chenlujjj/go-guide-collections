@@ -15,3 +15,5 @@ This is a collection of various go language guides, including those from the go 
 - [A Guide to the Go Garbage Collector](https://go.dev/doc/gc-guide)
 
 - [go-profiler-notes](https://github.com/DataDog/go-profiler-notes)：主要内容在 [The Busy Developers's Guide to Go Profiling, Tracing and Observability](https://github.com/DataDog/go-profiler-notes/blob/main/guide/README.md) 中，包括了 CPU，Memory，Block，Mutex，Goroutine 等多种 profiler 的使用方式、适用场景和注意事项。
+
+- [Scheduling In Go](https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html)：分为 OS Scheduler，Go Scheduler 和 Concurrency 三个章节，循序渐进地阐述了 OS 线程调度，Goroutine 调度的基本原理，结合具体例子说明了对于不同性质的程序（CPU-Bound/IO-Bound） 使用并发/并行带来的效果。
