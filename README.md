@@ -12,7 +12,8 @@ This is a collection of various go language guides, including those from the go 
 - [bahlo's Go Styleguide](https://github.com/bahlo/go-styleguide)
 
 - [The Go Memory Model](https://go.dev/ref/mem)：可以着重看 **Incorrect synchronization** 这一小节中的错误示例，尽量避免在日常编程时犯错。
-- [A Guide to the Go Garbage Collector](https://go.dev/doc/gc-guide)
+
+- [A Guide to the Go Garbage Collector](https://go.dev/doc/gc-guide)，有两篇中文翻译可供参看：[Go语言垃圾回收指南 by taoshu](https://taoshu.in/go/gc-guide.html) 和 [Go 垃圾回收器指南 by 鸟窝](https://colobu.com/2022/07/16/A-Guide-to-the-Go-Garbage-Collector/)
 
 - [go-profiler-notes](https://github.com/DataDog/go-profiler-notes)：主要内容在 [The Busy Developers's Guide to Go Profiling, Tracing and Observability](https://github.com/DataDog/go-profiler-notes/blob/main/guide/README.md) 中，包括了 CPU，Memory，Block，Mutex，Goroutine 等多种 profiler 的使用方式、适用场景和注意事项。
 
